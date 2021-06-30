@@ -1,0 +1,84 @@
+#NEXUS
+[Data written by write.nexus.data.R, Fri Jun 25 17:53:57 2021]
+BEGIN DATA;
+  DIMENSIONS NTAX=18 NCHAR=289;
+  FORMAT DATATYPE=DNA MISSING=? GAP=- INTERLEAVE=YES;
+  MATRIX
+    Haplo_1       tttagctgggaatttagcacattcaaggccagcattagatagtgctattttttcactacatttggctagggtttctagta
+    Haplo_2       tttagctgggaatttagcacattcaaggccagcattagatagtgctattttttcattacatttggctagggtttctagta
+    Haplo_3       tttagctgggaatttagcacattcaaggccagcattagatagtgctattttttcactacatttggctagggtttctagta
+    Haplo_4       tttagctgggaatttagcacattcaaggccagcattagatagtgctattttttcattacatttggctagggtttctagta
+    Haplo_5       tttagctgggaatttagcacattcaaggccagcattagatagtgctattttttcactacatttggccagggtttctagta
+    Haplo_6       tttagctgggaatttagcacattcaaggccagcattagatagtgctattttttcactacatttggctagggtttctagta
+    Haplo_7       tttagctgggaatttagcacattcaaggccagcattagatagtgctattttttcactacatttggctagggtttctagta
+    Haplo_8       tttagctgggaatttagcacattcaaggccagcattagatagtgctattttttcactacatttggctagggtttctagta
+    Haplo_9       tttagctgggaatttagcacattcaaggccagcattagatagtgctattttttcactacatttggctagagtttctagta
+    Haplo_10      tttagctgggaatttagcacattcaaggccagcattggatagtgctattttttcattacatttggctagggtttctagta
+    Haplo_11      tttagctgggaatttagcacattcaaggccagcattagatagtgctattttttcactacatttggctagggtttcgagta
+    Haplo_12      tttagctgggaatttagcacattcaaggccagcattagatagtgctattttttcattacatttggctagggtttctagta
+    Haplo_13      tttagctgggaatttagcacattcaaggccagcattagatagtgctattttttcactacatttggctagggtttctagta
+    Haplo_14      tttagctgggaatttagcacactcaaggccagcattagatagtgctattttttcactacatttggctagggtttctagta
+    Haplo_15      tttagctgggaatttagcacattcaaggccagcattagatagtgctattttttcactacatttggctagggtttctagta
+    Haplo_16      tttagctgggaatttagcacattcaaggccagcattagatagtgctattttttcactacatttagctagggtttctagta
+    Haplo_17      tttagctgggaatttagcacattcaaggccagcattagatagtgctattttttcactacatttggctagggtttctagta
+    Haplo_18      tttagctgggaatttagcacattcaaggccagcattagatagtgctattttttcactacatttggctagggtttctagta
+
+    Haplo_1       tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+    Haplo_2       tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttagtatacctttattt
+    Haplo_3       tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+    Haplo_4       tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+    Haplo_5       tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+    Haplo_6       tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+    Haplo_7       tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+    Haplo_8       tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+    Haplo_9       tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+    Haplo_10      tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+    Haplo_11      tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+    Haplo_12      tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+    Haplo_13      ttttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+    Haplo_14      tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+    Haplo_15      tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+    Haplo_16      tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+    Haplo_17      tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+    Haplo_18      tcttgggtagtttaaattttataactactatatttaatataaaggcaaaaggttggagattatttaatatacctttattt
+
+    Haplo_1       gtatggactgttttagtcacaacggttttattgttattatctttgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_2       gtatggactgttttagtcacaacggttttattgttattatctttgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_3       gtatgaactgttttagttacaacggttttattgttactatctctgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_4       gtatggactgttttagtcacaacggttttattgttattatctttgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_5       gtatggactgttttagtcacaacggttttattgttattatctttgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_6       gtatggactgttttagtcacaacggttttattgttattatctttgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_7       gtatggactgttttagtcacaacggttttattgttattatctttgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_8       gtatggactgttttagtcacaacggttttattgttattatctttgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_9       gtatggactgttttagtcacaacggttttattgttattatctttgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_10      gtatggactgttttagtcacaacggttttattgttattatctttgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_11      gtatggactgttttagtcacaacggttttattgttattatctttgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_12      gtatggactgttttagtcacaacggttttattgttattatctttgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_13      gtatggactgttttagtcacaacggttttattgttattatctttgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_14      gtatggactgttttagtcacaacggttttattgttattatctttgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_15      gtatggactgttttagtcacaacggttttattgttgttatctttgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_16      gtatggactgttttagtcacaacggttttattgttattatctttgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_17      gtatggacggttttagtcacaacggttttattgttattatctttgccagtattagctgcagcaattacaatattgttgtt
+    Haplo_18      gtatgaactgttttagttacaacggttttattgttattatctctgccagtattagctgcagcaattacaatattgttgtt
+
+    Haplo_1       tgatcgtaattttaacacatccttctttgatccagcaggtgggggagat
+    Haplo_2       tgatcgtaattttaacacatccttctttgatccagcaggtgggggagat
+    Haplo_3       tgatcgtaattttaatacatccttctttgatccagcaggtgggggagat
+    Haplo_4       tgatcgtaattttaatacatccttctttgatccagcaggtgggggagat
+    Haplo_5       tgatcgtaattttaacacatccttctttgatccagcaggtgggggagat
+    Haplo_6       tgatcgtaattttaacacatccttttttgatccagcaggtgggggagat
+    Haplo_7       tgatcgtaattttaacacatccttctttgatccagcaggtgggggggat
+    Haplo_8       tgatcgtaattttaacacatctttctttgatccagcaggtgggggagat
+    Haplo_9       tgatcgtaattttaacacatccttctttgatccagcaggtgggggagat
+    Haplo_10      tgatcgtaattttaacacatccttctttgatccagcaggtgggggagat
+    Haplo_11      tgatcgtaattttaacacatccttctttgatccagcaggtgggggagat
+    Haplo_12      tgatcgtaattttaacacatccttctttgatccagcaggtgggggagat
+    Haplo_13      tgatcgtaattttaacacatccttctttgatccagcaggtgggggagat
+    Haplo_14      tgatcgtaattttaacacatccttctttgatccagcgggtgggggagat
+    Haplo_15      tgatcgtaattttaacacatccttctttgatccagcaggtgggggagat
+    Haplo_16      tgatcgtaattttaacacatccttctttgatccagcaggtgggggagat
+    Haplo_17      tgatcgtaattttaacacatccttctttgatccagcaggtgggggagat
+    Haplo_18      tgatcgtaattttaatacatccttctttgatccagcaggtgggggagat
+  ;
+END;
+

@@ -1,0 +1,36 @@
+#NEXUS
+[Data written by write.nexus.data.R, Fri Jun 25 17:53:58 2021]
+BEGIN DATA;
+  DIMENSIONS NTAX=6 NCHAR=286;
+  FORMAT DATATYPE=DNA MISSING=? GAP=- INTERLEAVE=YES;
+  MATRIX
+    Haplo_1      ctagctggaaacctagcccactctgggggagcactagattgtgccattttttccttacatctagctagaatttctagtat
+    Haplo_2      ctagctggaaacctagcccactctgggggagcactagattgtgccattttttccttacatctagctagaatttctagtat
+    Haplo_3      ctagccggaaacctagcccactctgggggagcactggattgtgctattttttccttacatctagctagaatttctagtat
+    Haplo_4      ctagctggaaacctagcccactctgggggagcactagattgtgccattttttccttacatctagctagaatttctagtat
+    Haplo_5      ctagctggaaatctagcccactctgggggagcactagattgtgccattttttccttacatctagctagaatttctagtat
+    Haplo_6      ctagctggaaacctagcccactctgggggagcactagattgtgccattttttccttacatctagctagaatttctagtat
+
+    Haplo_1      tttaggttctcttaattttatgactacgatgttcaacataaaaactaagggttgggttatattttcaatacctttatttt
+    Haplo_2      tttaggttctcttaattttatgactacgatgttcaacataaaaactaagggttgggttatattttcaatacctttatttt
+    Haplo_3      tttaggttctcttaattttatgactactatgttcaacataaaaactaagggttgggttatgttttcaatacctttatttt
+    Haplo_4      tttaggttctcttaattttatgactacgatgttcaacataaaaactaagggttgggttatattttcaatacctttatttt
+    Haplo_5      tttaggttctcttaattttatgactacgatgttcaacataaaaactaagggttgggttatattttcaatacctttatttt
+    Haplo_6      tttaggttctcttaattttatgactacgatgttcaacataaaaactaagggttgggttatgttttcaatacctttatttt
+
+    Haplo_1      gttggacagtcttagttactacgttacttttattgttaagtttaccagttttggcggctgccattactatattgttgttt
+    Haplo_2      gttggacagtcttagttactacgttacttttattgttaagtctaccagttttggcggctgccattactatattgttgttt
+    Haplo_3      gttggacagtcttagttactacgttacttttattgttaagtttaccagttttggcagctgccattactatattgttgttt
+    Haplo_4      gttggacagtcttagttactacgttacttttattgttaagtctaccagttttggcggctgccattactatattgttgttt
+    Haplo_5      gttggacagtcttagttactacgttacttttattgttaagtctaccagttttggcggctgccattactatattgttgttt
+    Haplo_6      gttggacagtcttagttactacgttacttttattgttaagtctaccagttttggcggctgccattactatattgttgttt
+
+    Haplo_1      gatcgtaatattaatacttccttttttgatcctgttggaggtaggg
+    Haplo_2      gatcgtaatattaatacttccttttttgatcctgttggaggtaggg
+    Haplo_3      gatcgtaatattaatacttccttttttgatcctgttggaggtagag
+    Haplo_4      gatcgtaatcttaatacttccttttttgatcctgttggaggtaggg
+    Haplo_5      gatcgtaatcttaatacttccttttttgatcctgttggaggtaggg
+    Haplo_6      gatcgtaatcttaatacttccttttttgaccctgttggaggtaggg
+  ;
+END;
+

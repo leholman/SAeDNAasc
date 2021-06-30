@@ -1,0 +1,23 @@
+#NEXUS
+[Data written by write.nexus.data.R, Fri Jun 25 17:53:56 2021]
+BEGIN DATA;
+  DIMENSIONS NTAX=4 NCHAR=191;
+  FORMAT DATATYPE=DNA MISSING=? GAP=- INTERLEAVE=YES;
+  MATRIX
+    Haplo_1      aaaataaaagaaaatcaataagtaatttaagtttattttgttgatctttaattgttacaactattttactagtactatca
+    Haplo_2      aaaataaaagaaaatcaataagtaatttaagtttattttgttgatctttaattgttacaactattttactagtactatca
+    Haplo_3      aaaataaaagaaaatcaataagtaatttaagtttattttgttgatctttaattgttacaactattttattagtactatca
+    Haplo_4      aaaataaaagaaaatcaataagtaatttaaatttattttgttgatctttaattgttacaactattttactagtactatca
+
+    Haplo_1      cttcctgttttagctgcagcaattactatattattatttgatcgaaattttaatactacgttctttgatccgaatgggag
+    Haplo_2      cttcctgttttagctgcagcaattactatattattatttgatcgaaatttcaatactacgttctttgatccgaatgggag
+    Haplo_3      cttcctgttttagctgcagcaattactatattattatttgatcgaaattttaatactacgttctttgatccgaatgggag
+    Haplo_4      cttcctgttttagctgcagcaattactatattattatttgatcgaaattttaatactacgttctttgatccgaatgggag
+
+    Haplo_1      aagagatccaattttatatcaacatttattt
+    Haplo_2      aagagatccaattttatatcaacatttattt
+    Haplo_3      aagagatccaattttatatcaacatttattt
+    Haplo_4      aagagatccaattttatatcaacatttattt
+  ;
+END;
+

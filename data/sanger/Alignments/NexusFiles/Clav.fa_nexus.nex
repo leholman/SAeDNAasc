@@ -1,0 +1,44 @@
+#NEXUS
+[Data written by write.nexus.data.R, Fri Jun 25 17:44:13 2021]
+BEGIN DATA;
+  DIMENSIONS NTAX=5 NCHAR=440;
+  FORMAT DATATYPE=DNA MISSING=? GAP=- INTERLEAVE=YES;
+  MATRIX
+    Haplo_1      atacctgttataattagaggatttagaaattggctattacctataatagtaggatctcctgatatagctttcccgcgttt
+    Haplo_2      atacctgttataattagaggatttagaaattggctattacctataatagtaggatctcctgatatagctttcccgcgttt
+    Haplo_3      atacctgttataattagaggatttagaaattggctattacctataatagtaggatctcctgatatagctttcccgcgttt
+    Haplo_4      atacctgttataattagagggtttagaaattggctattacctataatagtaggatctcctgatatagctttcccgcgttt
+    Haplo_5      atacctgttataattagaggatttagaaattggctattacctataatagtaggatctcctgatatagctttcccgcgttt
+
+    Haplo_1      aaataatataagtttctgattactgcctccagctttatttcttcttgtattatctgtttttaatagggacagggtaagga
+    Haplo_2      aaataatataagtttctgattactgcctccagctttatttcttcttgtattatctgtttttaatagggacagggtaagga
+    Haplo_3      aaacaatataagtttctgattactgcctccagctttatttcttcttgtattatctgtttttaatagggacagggtaagga
+    Haplo_4      aaataatataagtttctgattactgcctccagctttatttcttcttgtattatctgtttttaatagggacagggtaagga
+    Haplo_5      aaataatataagtttctgattactgcctccagctttatttcttcttgtattatctgtttttaatagggacagggtaagga
+
+    Haplo_1      cagggtggactatttaccccccattatctggcattttagctcatagtagtggggctgtagatataggtattttttcttta
+    Haplo_2      cagggtggactatttacccaccattatctggcattttagctcatagtagtggggctgtagatataggtattttttcttta
+    Haplo_3      cagggtggactatttacccaccattatctggcattttagctcatagtagtggggctgtagatataggtattttttcttta
+    Haplo_4      caggatggactatttacccaccattatctggtattttagctcatagtagtggggctgtagatataggtattttttcttta
+    Haplo_5      cagggtggactatttacccaccattatctggcattttagctcatagtagtggggctgtagatataggtattttttcttta
+
+    Haplo_1      catttagctagggtttctagtattttaaggtctataaattttttagttacaataagtaatatgaaattaaaaggttttga
+    Haplo_2      catttagctagggtttctagtattttaaggtctataaattttttagttacaataagtaatatgaaattaaaaggttttga
+    Haplo_3      catttagctagggtttctagtattttaaggtctataaattttttagttacaataagtaatatgaaattaaaaggttttga
+    Haplo_4      catttagctagggtttctagtattttaaggtctataaattttttagttacaataagtaatatgaaattaaaaggttttga
+    Haplo_5      catttagctaggatttctagtattttaaggtctataaattttttagttacaataagtaatatgaaattaaaaggttttga
+
+    Haplo_1      ttataataatttaagtttattttgttgatctgttgttgtaaccactgttttactggtgctatctctacctgttttagctg
+    Haplo_2      ttataataatttaagtttattttgttgatctgttgttgtaaccactgttttactggtgctatctctacctgttttagctg
+    Haplo_3      ttataataatttaagtttattttgttgatctgttgttgtaaccactgttttactggtgctatctctacctgttttagctg
+    Haplo_4      ttataataatttaagtttattttgttgatctgttgttgtaactactgttttactggtgctatctctacctgttttagctg
+    Haplo_5      ttataataatttaagtttattttgttgatctgttgttgtaaccactgttttactggtgctatctctacctgttttagctg
+
+    Haplo_1      ctgctattaccatactgctttttgatcgtaatttaaatac
+    Haplo_2      ctgctattaccatactgctttttgatcgtaatttaaatac
+    Haplo_3      ctgctattaccatactgctttttgatcgtaatttaaatac
+    Haplo_4      ctgctattactatactgctttttgatcgtaatttaaacac
+    Haplo_5      ctgctattaccatactgctttttgatcgtaatttaaatac
+  ;
+END;
+
