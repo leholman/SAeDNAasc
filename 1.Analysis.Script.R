@@ -39,7 +39,7 @@ ylab <- parse(text=degreeLabelsNS(yat))
 box()
 axis(2, las=TRUE, at=yat, labels=ylab)
 axis(3, at=xat, labels=xlab)
-axis(4, las=TRUE, at=yat, labels=ylab)
+#axis(4, las=TRUE, at=yat, labels=ylab)
 
 points(dist$Long,dist$Lat,pch=16,cex=1.7,col="black")
 points(dist$Long,dist$Lat,pch=16,cex=1.5,col="white")
@@ -621,9 +621,9 @@ palette(col_vector[20:(20+length(h@hapind))])
 
 
 pdf(paste0("figures/figure2/",critter,"HapDist.pdf"),height = 5.5,width = 9)
-par(mfrow=c(2,1),mar=c(3.1, 2.1, 1.1, 1.1))
-barplot(prop.table(haploTab09,2),axisnames=F,col=1:length(h@hapind))
-barplot(prop.table(haploTab17,2),col=1:length(h@hapind))
+par(mfrow=c(2,1),mar=c(3.1, 3.5, 1.1, 1.1))
+barplot(prop.table(haploTab09,2),axisnames=F,col=1:length(h@hapind),cex.axis=2,las=1)
+barplot(prop.table(haploTab17,2),col=1:length(h@hapind),cex.names=1.5,cex.axis=2,las=1)
 dev.off()
 
 pdf(paste0("data/sanger/HaploTypeColours/",critter,"_cols.pdf"),height = 5.5,width = 9)
