@@ -1,6 +1,6 @@
 # South African Ascidians
 
-This repository accompanies the manuscript **Managing human mediated range shifts: understanding spatial, temporal and genetic variation in marine non-native species** which is currently under review. Descriptions of scripts and folders can be found below. 
+This repository accompanies the publication **Managing human-mediated range shifts: understanding spatial, temporal and genetic variation in marine non-native species** which can be found [here](https://doi.org/10.1098/rstb.2021.0025). Descriptions of scripts and folders can be found below. 
 
 File Name | Description
 --- | ---
