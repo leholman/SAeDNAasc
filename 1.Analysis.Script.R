@@ -194,9 +194,9 @@ plot(NA,xlim=c(1,3),ylim=c(1,4),xaxt="n",yaxt="n",bty="n")
 points(rep(1.5,3),seq(3.5,3.75,0.09),cex=c(1.2,2.4,3.6),pch=1,col="darkblue")
 text(rep(3.2,3),seq(3.5,3.9,length.out=3),labels=c("< 10%","10-50%","> 50%"),cex=0.6,pos=2,col="darkblue")
 points(rep(1.5,4),seq(2.5,2.75,0.065),cex=1:4,pch=0,col="darkgreen")
-text(rep(3.2,4),seq(2.4,2.9,length.out=4),labels=c("> 0.00001","> 0.0001","> 0.001","> 0.01"),cex=0.6,pos=2,col="darkgreen")
+text(rep(3.2,4),seq(2.4,2.9,length.out=4),labels=c("> 0.000001","> 0.00001","> 0.0001","> 0.001"),cex=0.6,pos=2,col="darkgreen")
 points(rep(1.5,4),seq(1.5,1.75,0.065),cex=1:4,pch=5,col="darkviolet")
-text(rep(3.2,4),seq(1.4,1.9,length.out=4),labels=c("> 0.000001","> 0.00001","> 0.0001","> 0.001"),cex=0.6,pos=2,col="darkviolet")
+text(rep(3.2,4),seq(1.4,1.9,length.out=4),labels=c("> 0.00001","> 0.0001","> 0.001","> 0.01"),cex=0.6,pos=2,col="darkviolet")
 
 dev.off()
 
@@ -269,9 +269,11 @@ dev.off()
 
 historical <- read.csv("data/historical/RawData.csv")
 
+historical <- read.csv("data/historical/rawdata.update2022.csv")
 
 
-pdf("figures/HistroicalRange.pdf",width = 4,height = 7)
+
+pdf("figures/HistroicalRangeNew.pdf",width = 4,height = 7)
 palette(c("#d55e00","#cc79a7","#0072b2","#009e73"))
 par(mfrow=c(4,1),mar=c(2.1, 2.1, 1, 1))
 counter <-  1
